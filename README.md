@@ -74,3 +74,41 @@ X-Xss-Protection: 1; mode=block
 ```
 
 :ballot_box_with_check: For each of the above, explain to your partner which side of the client-server relationship they originate from.
+
+## HTTP: Parameters
+
+:ballot_box_with_check: Consider this url: http://www.example.com/home?name=Bob&age=21. Identify the following:
+
+- the query string
+
+```
+?name=Bob&age=21
+```
+
+- the number of parameters in the query string
+
+```
+ 2 params - "name=Bob" and "age=21".
+```
+
+- the keys.
+
+```
+ "name", and "age"
+```
+
+- the values.
+
+```
+"Bob" and "21"
+```
+
+- the conventions used to format query strings.
+
+```
+"&"
+```
+
+:ballot_box_with_check: Visit 'http://makersipsum.herokuapp.com/' in the browser. Pass your name as a parameter, using "name" as the key. The page should greet you.
+
+:ballot_box_with_check: Revisit 'http://makersipsum.herokuapp.com/' without passing a parameter. Explain to your pair what the difference in behaviour tells you about the way the server treats the data passed as a parameter.
