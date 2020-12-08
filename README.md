@@ -223,3 +223,11 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Inside these ERB tags, write an expression that samples a random name from the following array: ["Amigo", "Oscar", "Viking"]
 
 :ballot_box_with_check: Restart your server and visit the path associated with the cat route.
+
+## Sinatra: Keeping views clean
+
+:ballot_box_with_check: Move the expression for generating a random name into the route for your view, assigning it to an instance variable
+
+:ballot_box_with_check: Substitute the expression within the view for the instance variable instead
+
+:ballot_box_with_check: Visit the webpage to ensure nothing has gone wrong.
