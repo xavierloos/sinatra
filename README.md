@@ -272,5 +272,6 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 
 :ballot_box_with_check: Modify some of the attributes of the inputs (e.g. the name attribute) and explain to your pair partner how this affects the query string in the URL bar when you submit the form
 
-- :ballot_box_with_check: Print the incoming params to the server logs each time you visit the route
-- :ballot_box_with_check: Explain to your pair partner how modifying input attributes (e.g. name) affects the incoming params hash
+:ballot_box_with_check: Print the incoming params to the server logs each time you visit the route
+
+:ballot_box_with_check: Explain to your pair partner how modifying input attributes (e.g. name) affects the incoming params hash
