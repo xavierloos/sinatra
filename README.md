@@ -171,3 +171,11 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Explain to your partner the significance of what you see in the terminal
 
 :ballot_box_with_check: Use a browser to visit your application at http://localhost:4567
+
+## Sinatra: Defining a route
+
+:ballot_box_with_check: Use Sinatra's error message above to define a route that responds to incoming requests to the / path
+
+:ballot_box_with_check: Return the string "hello!" from this route
+
+:ballot_box_with_check: Check that your route works by visiting your application in the browser at the correct address.
