@@ -213,3 +213,13 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Restart your server, and visit your previously-working route
 
 :ballot_box_with_check: Explain to your pair partner what you see.
+
+## Sinatra: erb
+
+:ballot_box_with_check: Add an h1 tag to your index.erb view file, with the words 'My name is ' inside it.
+
+:ballot_box_with_check: At the end of the h1 tag (before it closes), append an empty interpolated Ruby Expression using <%= %> ('ERB tags')
+
+:ballot_box_with_check: Inside these ERB tags, write an expression that samples a random name from the following array: ["Amigo", "Oscar", "Viking"]
+
+:ballot_box_with_check: Restart your server and visit the path associated with the cat route.
