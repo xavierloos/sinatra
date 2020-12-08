@@ -231,3 +231,25 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Substitute the expression within the view for the instance variable instead
 
 :ballot_box_with_check: Visit the webpage to ensure nothing has gone wrong.
+
+## Sinatra: Introducing params
+
+:ballot_box_with_check: Rename your /cat route to /random-cat.
+
+:ballot_box_with_check: Build a new route, /named-cat, that does the same as /random-cat.
+
+:ballot_box_with_check: Instead of setting the @name instance variable equal to a sampled array, set it equal to params[:name]
+
+:ballot_box_with_check: Visit your route from a browser
+
+:ballot_box_with_check: Explain to your pair partner what you see
+
+:ballot_box_with_check: In the browser URL, add the following query string after the /named-cat path: ?name=James, and visit that page
+
+:ballot_box_with_check: Explain to your pair partner what you see
+
+:ballot_box_with_check: In the line before you assign your @name variable, print (p) the params of the request
+
+:ballot_box_with_check: Restart your server and refresh the page. Check the terminal (server logs) and explain to your pair partner what you see
+
+:ballot_box_with_check: Change parts of the query string within the URL bar of your browser until you can fully explain how it works to your pair partner.
