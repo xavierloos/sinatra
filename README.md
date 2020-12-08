@@ -193,3 +193,9 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Manually restarting the server every time you change your code is going to get painful. Install and run your server using the shotgun gem instead. BEWARE, when you are using shotgun with Sinatra, each time your server restarts your sessions will be lost, to solve this problem you need to follow these instructions. You can also find these in the Shotgun Documentation under Caveats.
 
 :ballot_box_with_check: Define a few more routes. Without killing the server, check if the routes are visitable.
+
+## Sinatra: Returning HTML
+
+:ballot_box_with_check: Define a new route, called get '/cat'.
+
+:ballot_box_with_check: Using this image: http://bit.ly/1eze8aE , return an HTML string from the route that displays a cat photograph surrounded by a red dotted border.
