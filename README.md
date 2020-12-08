@@ -199,3 +199,17 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Define a new route, called get '/cat'.
 
 :ballot_box_with_check: Using this image: http://bit.ly/1eze8aE , return an HTML string from the route that displays a cat photograph surrounded by a red dotted border.
+
+## Sinatra: Views
+
+:ballot_box_with_check: Create a directory called views, within the same directory as your app.rb file
+
+:ballot_box_with_check: Create an index.erb file (a 'view file') within the views directory
+
+:ballot_box_with_check: Move the HTML string you wrote in app.rb ('routing file') into the view file you just created
+
+:ballot_box_with_check: Replace the HTML string in the routing file with the statement erb(:index)
+
+:ballot_box_with_check: Restart your server, and visit your previously-working route
+
+:ballot_box_with_check: Explain to your pair partner what you see.
