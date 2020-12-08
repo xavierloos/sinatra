@@ -291,3 +291,5 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Observe the printed params when you submit the form
 
 :ballot_box_with_check: Explain your observations to your pair partner.
+
+## Sinatra: Using the Chrome DevTools
