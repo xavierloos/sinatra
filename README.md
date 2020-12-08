@@ -179,3 +179,17 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Return the string "hello!" from this route
 
 :ballot_box_with_check: Check that your route works by visiting your application in the browser at the correct address.
+
+## Sinatra: Start and Restart
+
+:ballot_box_with_check: Define a second route, get '/secret'. Have it respond with a message of your choosing.
+
+:ballot_box_with_check: Visit the new route in the browser. Do you see the message you wrote? If not, move on.
+
+:ballot_box_with_check: Kill the app on the command line with ctrl-c and run it again.
+
+:ballot_box_with_check: Visit the new route in the browser again. Do you see the message you wrote this time?
+
+:ballot_box_with_check: Manually restarting the server every time you change your code is going to get painful. Install and run your server using the shotgun gem instead. BEWARE, when you are using shotgun with Sinatra, each time your server restarts your sessions will be lost, to solve this problem you need to follow these instructions. You can also find these in the Shotgun Documentation under Caveats.
+
+:ballot_box_with_check: Define a few more routes. Without killing the server, check if the routes are visitable.
