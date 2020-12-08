@@ -293,3 +293,13 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Explain your observations to your pair partner.
 
 ## Sinatra: Using the Chrome DevTools
+
+:ballot_box_with_check: Open the Chrome DevTools within your browser
+
+:ballot_box_with_check: Switch to the Network pane of the DevTools
+
+:ballot_box_with_check: Interact with your application, explaining to your pair partner what is happening in the DevTools when you do so
+
+:ballot_box_with_check: Locate the method for each request
+
+:ballot_box_with_check: Locate the form data for POST requests
