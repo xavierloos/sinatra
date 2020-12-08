@@ -157,3 +157,17 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Make the same "POST" request again, this time with the -v flag.
 
 :ballot_box_with_check: Explain to your partner what was different about the request headers as compared to the first step.
+
+## Sinatra: Getting Started
+
+:ballot_box_with_check: Create a project directory with the sinatra gem installed via a Gemfile
+
+:ballot_box_with_check: Create a file for your application, app.rb.
+
+:ballot_box_with_check: Require sinatra at the top of the file.
+
+:ballot_box_with_check: Run the app from the command line: ruby app.rb.
+
+:ballot_box_with_check: Explain to your partner the significance of what you see in the terminal
+
+:ballot_box_with_check: Use a browser to visit your application at http://localhost:4567
