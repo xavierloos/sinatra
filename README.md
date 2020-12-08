@@ -275,3 +275,19 @@ http -f POST https://getpostworkout.herokuapp.com/name=javi
 :ballot_box_with_check: Print the incoming params to the server logs each time you visit the route
 
 :ballot_box_with_check: Explain to your pair partner how modifying input attributes (e.g. name) affects the incoming params hash
+
+## Sinatra: POSTed params
+
+:ballot_box_with_check: Write a new get route that renders only the cat-naming form
+
+:ballot_box_with_check: Add a method attribute to your form element, with the value "post"
+
+:ballot_box_with_check: Change your /named-cat route to use post instead of get
+
+:ballot_box_with_check: Interact with your application
+
+:ballot_box_with_check: Observe the URL query string when you submit the form
+
+:ballot_box_with_check: Observe the printed params when you submit the form
+
+:ballot_box_with_check: Explain your observations to your pair partner.
